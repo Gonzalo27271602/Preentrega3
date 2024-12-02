@@ -1,3 +1,16 @@
+footer {
+  background-color: black;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-collapse {
+  display: flex !important;
+}
+
 /* -------------------ACA EMPIEZA SERVICIOS------------------------------------*/
 main {
   background-color: orange;
@@ -27,22 +40,9 @@ main {
 }
 
 .cardborder {
-  border: 1.5px solid rgb(187, 186, 186);
   padding: 5px;
   height: 100%;
-}
-
-footer {
-  background-color: black;
-  height: 20%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.navbar-collapse {
-  display: flex !important;
+  border: 1.5px solid rgb(180, 19, 19);
 }
 
 /* -------------------ACA EMPIEZA CONTACTO------------------------------------*/
@@ -81,7 +81,7 @@ footer {
 
 /* -------------------ACA EMPIEZA INDEX------------------------------------*/
 .serv1 {
-  border: 1.5px solid rgb(187, 186, 186);
+  border: 1.5px solid rgb(180, 19, 19);
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -166,7 +166,7 @@ span {
   }
   /* -------------------ACA EMPIEZA MEDIA QUERIES INDEX------------------------------------*/
   .serv1 {
-    border: 1.5px solid rgb(187, 186, 186);
+    border: 1.5px solid rgb(180, 19, 19);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
