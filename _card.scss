@@ -1,0 +1,38 @@
+
+/* -------------------SERVICIOS------------------------------------*/
+
+.fila1 {
+    display:flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+    
+.card {
+    padding: 5px;
+    margin-bottom: 10px;
+    
+    &:hover {
+        background-color: lightgray;
+    }
+}
+    
+.card-text {
+    font-size: 20px;
+}
+    
+.cardborder {
+    padding: 5px;
+    height: 100%;
+    @include bordes($borde-general);
+}
+
+/* -------------------MEDIA QUERIES------------------------------------*/
+
+@media screen and (max-width: 480px) {
+    .fila1 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+    

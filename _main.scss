@@ -1,0 +1,19 @@
+/* -------------------MAIN------------------------------------*/
+
+main {
+    background-color: $color-principal;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+/* -------------------MEDIA QUERIES------------------------------------*/
+
+@media screen and (max-width: 480px) {
+
+    main {
+        display: flex;
+        align-items: center;
+    }
+}

@@ -1,4 +1,8 @@
 
 $color-principal: orange;
-$borde-general: 1.5px solid rgb(180, 19, 19);
+$borde-general: 1.5px solid rgb(177, 176, 176);
 $color-footer: black;
+
+@mixin bordes($borde-general) {
+    border: $borde-general;
+}
